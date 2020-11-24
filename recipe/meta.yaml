@@ -11,7 +11,7 @@ source:
   sha256: cbf6e9af14022c606ee09c6c19d2bc06c76bf4ddf53ec1cf7195a4919d6605dd
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -47,6 +47,6 @@ about:
 
 extra:
   recipe-maintainers:
-  - fmaussion
-  - TimoRoth
-  - raybellwaves
+    - fmaussion
+    - TimoRoth
+    - raybellwaves
