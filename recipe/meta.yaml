@@ -1,5 +1,5 @@
 {% set name = "salem" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/salem-{{ version }}.tar.gz
-  sha256: cbf6e9af14022c606ee09c6c19d2bc06c76bf4ddf53ec1cf7195a4919d6605dd
+  sha256: e4c1ba33b592a24f02478f9740bcebe9ecde7bfe2d61d31d964cb5d3e8bd9080
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
