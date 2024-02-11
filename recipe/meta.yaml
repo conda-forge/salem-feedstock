@@ -1,5 +1,5 @@
 {% set name = "salem" %}
-{% set version = "0.3.9" %}
+{% set version = "0.3.10" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/salem-{{ version }}.tar.gz
-  sha256: 4508a73b15607fbebf80ee8268dbee41ea6cf0c8beba8b7265a711fedde3b2e0
+  sha256: ff6cbcd9245249f4507632067c40cb2431454395e33adef4585c9e0ab8e3d2db
 
 build:
   number: 0
